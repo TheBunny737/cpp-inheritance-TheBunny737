@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Artist.h"
 #include "Athlete.h"
+#include "Person.h"
 using namespace std;
 
 int main() {
@@ -9,4 +10,7 @@ int main() {
 
     Athlete selena("Selena Williams", 39, "Tennis");
     cout << selena.introduce() << endl;
+
+    Person mooyoung("Teerapat Dechnambuncharchai", 19);
+    cout << mooyoung.introduce() << endl;
 }
